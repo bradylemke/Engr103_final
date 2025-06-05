@@ -8,7 +8,7 @@ A handheld roulette game built for the Adafruit Circuit Playground Express using
 
 // Gameplay Overview
 
-Test your luck by betting on red or green, give the board a shake to spin the wheel, a white LED marks where the "ball" lands, and your score adjusts based on the outcome. Get to +3 and you win, but if you get to -3 you lose!
+Test your luck by betting on red or green, give the board a shake to spin the wheel, a white LED marks where the "ball" lands, and your score adjusts based on the outcome. Get to +5 and you win, but if you get to -5 you lose! Feeling lucky? Use the x3 multipler! Higher rewards, but beware, that also means more to lose.
 
 // How It Works
 
@@ -34,6 +34,7 @@ The Circuit Playground Express uses:
   - Bet on Red - Left Button
   - Bet on Green - Right Button
   - Spin the wheel - Shake the board (> 20)
+  - Use the Multiplier - Flip the switch
 
 // Outputs
 
