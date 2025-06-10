@@ -16,13 +16,15 @@ The Circuit Playground Express uses:
   - LED ring to show the roulette table (alternating red/green)
   - Accelerometer to detect shakes and trigger the spin
   - Buttons for placing bets
+  - Switch to add multiplier
   - Sound output for win/loss indication
-  - LED score bar to show current score from -3 to +3
+  - LED score bar to show current score from -5 to +5
 
 // Rules
 
   - The LED ring has 10 slots, alternates between red and green, and the ball lands randomly when shaken
   - Bet: Left button = Bet on Red, Right button = Bet on Green
+  - Multiply: Toggle the switch to change your bet to either x1 or x3 for added risk
   - Spin: Shake the Circuit Playground Express to start the spin, and the ball (white LED) lands on a random slot
   - Scoring: +1 if your bet matches the landing color, -1 if it doesn't. Score is displayed with a visual LED bar, and you win at +5, lose at -5
   - Game Over: LEDs flash in cyan if you win, purple if you lose, inputs are locked once the game ends
